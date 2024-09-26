@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: #323234 !important;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Для браузеров на основе WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Ширина скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Цвет фона трека */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Цвет скроллбара */
+    border-radius: 10px; /* Закругление углов */
+}
